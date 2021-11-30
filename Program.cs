@@ -15,6 +15,7 @@ namespace Regex1
             MatchCollection vale = miRegex.Matches(frase);
             Console.WriteLine(vale.Count >=1? "Se ha encontrado" : "De eso nada");
             Console.WriteLine(miRegex.Matches(frase).Count >= 1 ? "Se ha encontrado" : "De eso nada");
+            // Añadido comentario en la nube
             
 
         }
